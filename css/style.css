@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contenedor .header{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgb(243, 179, 168) ;
+    margin-bottom: 50px;
+}
+
+
+
+.contenedor .contenido{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedor .contenido .palabras {
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.contenedor .contenido .palabras ul{
+    font-size: 30px;
+}
+
+.contenedor .contenido .palabras li{
+    font-size: 60px;
+}
+
+.contenedor .contenido .sopa table {
+    border: 1px solid black;
+    width: 700px;
+    height: 200px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(176, 228, 223);
+}
+
+.contenedor .contenido .sopa th {
+    padding: 10px;
+    font-size:45px;
+    border: 0.5px solid black;
+}
+.contenedor .contenido .sopa td {
+    padding: 7px;
+    border:ridge;
+    font-size:50px;
+    border-radius: 25px;
+    background-color: rgb(243, 179, 168);
+}
+
+.contenedor .imgs {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 1500, auto
+}
+
+.contenedor .imgs .img {
+    display: flex;
+    width: 50%;
+    height: 30%;
+    margin-top: 1500, auto
+}
